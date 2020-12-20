@@ -1,5 +1,4 @@
-/*
-package ImageHoster.controller;
+/*package ImageHoster.controller;
 
 import ImageHoster.model.User;
 import ImageHoster.model.UserProfile;
@@ -14,7 +13,6 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.mock.web.MockHttpSession;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
-
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -118,6 +116,7 @@ public class UserControllerTest {
 
 
     //This test checks the controller logic for user signin when user enters the username and password that has been registered and sends the POST request to the server and checks whether the logic redirects to the request handling method with request mapping of type "/images"
+    @Test
     public void signinWithCorrectCredentials() throws Exception {
         User user = new User();
         UserProfile userProfile = new UserProfile();
@@ -166,5 +165,4 @@ public class UserControllerTest {
                 .andExpect(view().name("index"))
                 .andExpect(content().string(containsString("Image Hoster")));
     }
-}
-*/
+}*/
