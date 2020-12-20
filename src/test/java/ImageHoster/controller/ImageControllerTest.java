@@ -1,4 +1,4 @@
-/*package ImageHoster.controller;
+package ImageHoster.controller;
 
 import ImageHoster.model.Image;
 import ImageHoster.model.Tag;
@@ -307,4 +307,4 @@ public class ImageControllerTest {
                 .session(session))
                 .andExpect(model().attribute("deleteError", "Only the owner of the image can delete the image"));
     }
-}*/
+}
