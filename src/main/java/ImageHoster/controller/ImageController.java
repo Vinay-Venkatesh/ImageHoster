@@ -155,11 +155,11 @@ public class ImageController {
         User user = (User) session.getAttribute("loggeduser");
 
         if(image.getUser().getId() != user.getId()){
-            String error = "Only the owner of the image can edit the image";
+            String error = "Only the owner of the image can delete the image";
 
             model.addAttribute("image", image);
             model.addAttribute("tags", image.getTags());
-            model.addAttribute("editError", error);
+            model.addAttribute("deleteError", error);
             return "images/image";
         }else
         {
