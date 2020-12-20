@@ -1,2 +1,2 @@
 # ImageHoster
-This repository contains code for image hoster project
+Spring Boot application for image hoster.
