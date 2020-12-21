@@ -1,2 +1,2 @@
 # ImageHoster
-Spring Boot application for image hoster.
+Spring MVC based application for image hosting.
